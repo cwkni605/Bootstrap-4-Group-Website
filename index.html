@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!-- 
+Created by: Connor Knight
+last edited: 10/1/2020
+page purpose: Shop page to get product sold
+-->
+<html lang = "en">
+<head>
+    <title>(AIO) Apature Investment Opurtunites</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body 
+        {
+            padding-top: 85px;
+        }
+        .logohead
+        {
+            max-height: 50px;
+        }
+        iframe
+        {
+            border-radius: 10px;
+        }
+        .modal-full 
+        {
+            min-width: 90vw;
+            margin-left: 80;
+        }
+        .model{
+            text-align: center;
+            font-family: 'Great Vibes', cursive;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="*"><img class="logohead" src="images/logoBig.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop
+                    <span class="sr-only">Shop</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="employment.html">Employment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        
+        <div class="row">
+
+            <div class="col-lg-3">
+                <br>
+                <a href="#myModal"  class="embed-responsive embed-responsive-16by9" role="button" class="btn btn-primary" data-toggle="modal"><img class="embed-responsive-item" style="border-radius: 10px;" src="images/testinginit.jpg" alt="testing inititave"></a>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-full" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Perpetual Testing Initiative</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body p-4" id="result">
+                                <div class="row">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b7rZO2ACP3A" allow="accelerometer; autoplay ; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="my-4">Investment Catagories</h1>
+                <div class="list-group">
+                <a href="#" class="list-group-item">Panels</a>
+                <a href="#" class="list-group-item">Turrets</a>
+                <a href="#" class="list-group-item">test subject equipment</a>
+                <a href="#" class="list-group-item">Robots</a>
+            </div>
+
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+            <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                <a href="https://www.youtube.com/watch?v=wX9Sc88qreg"><img class="d-block img-fluid" src="images/boots.jpg" alt="Test subject equipment"></a>
+                </div>
+                <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=6i-nMWgBUp0&app=desktop"><img class="d-block img-fluid" src="images/turrets.jpg" alt="Turrets"></a>
+                </div>
+                <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=0qcED35LL8I"><img class="d-block img-fluid" src="images/pannels.jpg" alt="Pannels"></a>
+                </div>
+                <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=6i-nMWgBUp0"><img class="d-block img-fluid" src="images/robots.jpg" alt="Robots"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+
+            <div class="row">
+
+            </div class="col-lg-9">
+                <h1 class="model">We do what we must because we can.</h1>
+                <p>Here at Aperture Laboratories we make a wide  variety of machines and security systems. Larger than Black Mesa's variety. We can provide many options to protect your family, from turrets to toxic gas vents, we can garentee the intruders death. </p>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Apature Science</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!--jquery, popper, and bootstrap .js links, in that order-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
